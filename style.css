@@ -1,0 +1,62 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Very light blue background color */
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Limit maximum width */
+    margin: 0 auto; /* Center section horizontally */
+}
+
+h2 {
+    color: #343a40;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Anchor link styles */
+a[href="#anchor-target"] {
+    display: block; /* Ensure it takes up full width */
+    text-align: center; /* Center the content horizontally */
+    margin-top: 20px; /* Space between the YouTube video and the anchor link */
+    color: #007bff; /* Text color */
+    text-decoration: none; /* Remove default underline */
+}
+
+a[href="#anchor-target"]:hover {
+    color: #0056b3; /* Change text color on hover */
+}
